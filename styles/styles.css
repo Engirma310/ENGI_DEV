@@ -1,0 +1,50 @@
+.intro-img {
+    width: 103%;
+    display: block;
+    margin: 1em -.5em;
+    border-radius: .3em;
+}
+
+.html-css-js {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #919090;
+    border-radius: .5em;
+}
+
+.image-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    margin: 0 2em;
+    border: 1px solid gray;
+    border-radius: 1em;
+    width: 30%;
+    max-width: 10em;
+    height: 7%;
+}
+
+.fcc, .w3s {
+    margin-top: 1em;
+}
+
+.undemy {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0.5em;
+}
+
+@media (min-width: 650px) {
+    .image-intro {
+        margin: 0 -1.6em;
+    }
+
+    .intro-img {
+        width: 100%;
+        margin: 2em auto;
+    }
+}
